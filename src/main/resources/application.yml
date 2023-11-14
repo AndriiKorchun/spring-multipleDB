@@ -1,0 +1,21 @@
+data-sources:
+  datasource-1: data-base-1
+  url: jdbc://.....
+  table: users
+  user: testuser
+  password: testpass
+  mapping:
+    id: user_id
+    username: login
+    name: first_name
+    surname: last_name
+#  datasource-2: data-base-2
+#  url: jdbc://.....
+#  table: user_table
+#  user: testuser
+#  password: testpass
+#  mapping:
+#    id: user_id
+#    username: login
+#    name: first_name
+#    surname: last_name
